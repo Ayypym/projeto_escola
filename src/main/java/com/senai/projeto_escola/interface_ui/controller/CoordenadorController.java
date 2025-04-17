@@ -37,6 +37,7 @@ public class CoordenadorController {
             return ResponseEntity.ok("Coordenador atualizado com sucesso!");
         }else {
             return ResponseEntity.notFound().build();
+
         }
     }
 
@@ -47,7 +48,6 @@ public class CoordenadorController {
         }else {
             return ResponseEntity.notFound().build();
         }
-
 
     }
 }
